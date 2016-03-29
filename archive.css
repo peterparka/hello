@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "MaisonMonoReg";
+    src: url("type/MaisonMonoRegular.otf");
+}
+@font-face {
+    font-family: "BlenderProBold";
+    src: url("type/BlenderProBold.otf");
+}
+@font-face {
+    font-family: "BlenderProBook";
+    src: url("type/BlenderProBook.otf");
+}
+body {
+ margin-left: 3%; 
+ margin-right: 3%;
+ max-height: 2000px;
+ margin: 0 auto;
+}
+/*header*/
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.name {
+    text-decoration: none;
+}
+.end a {
+    text-decoration: none;
+}
+a:visited {
+ color: black;
+}
+.head h5 {
+    font-family: MaisonMonoReg;
+    flex-grow: ;
+}
+.head a {
+    text-decoration: none;
+}
+.blog a {
+    text-decoration: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    padding-bottom: 15px;
+    transition: .3s ease;
+}
+.blog a:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 1);
+    padding-bottom: 5px;
+}
+/*Container For Description*/
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    justify-content: space-around;
+}
+/*Descriptions*/
+.descript {
+    display: flex; 
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+    padding-bottom: 2px;
+}
+.descript:hover {
+    background-color: #FF5335;
+}
+.descript h3 {
+    font-family: BlenderProBold;
+    font-size: 21px;
+    margin-left: 15%;
+}
+.descript p {
+    font-family: BlenderProBook;
+    font-size: 12px;
+    margin-right: 15%;
+}
+.descript a {
+    text-decoration: none;
+}
+/*footer*/
+/*footer*/
+footer {
+    background-color: white;
+    position: fixed;
+    height: 35px;
+    bottom: 0;
+    z-index: 10;
+    border-top: 1px solid #F2F2F2;
+    width: 100%; 
+    
+}
+.footer-links {
+  font-family: "MaisonMonoReg";
+  font-size: 10px;    
+  margin-top: 11px;
+  margin-right: 3%;
+  text-align: right;   
+}
+.foot-1 {
+    text-decoration:none;
+}
+.foot-1:hover {
+    color: #FF5335;
+}
+
+.foot-2 {
+    text-decoration:none;
+}
+.foot-2:hover {
+    color: #FF5335;
+}
+
+.foot-3 {
+    text-decoration:none;
+}
+.foot-3:hover {
+    color: #FF5335;
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .descript {
+    display: flex; 
+    flex-direction: row;
+    align-items: baseline;
+    justify-content:space-between;
+    border-bottom: 3px solid black;
+    padding-bottom: 2px;
+}
+    .container {
+    display: flex;
+    flex-direction: column;
+    margin-left: ;
+    margin-right: ;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    justify-content: ;
+}
+    .descript h3 {
+    font-family: BlenderProBold;
+    font-size: 21px;
+    margin-left: 5%;
+}
+.descript p {
+    font-family: BlenderProBook;
+    font-size: 12px;
+    margin-right: 5%;
+}
+
+    
+
+}

@@ -1,0 +1,525 @@
+@font-face {
+    font-family: "MaisonMonoReg";
+    src: url("type/MaisonMonoRegular.otf");
+}
+@font-face {
+    font-family: "BlenderProBold";
+    src: url("type/BlenderProBold.otf");
+}
+@font-face {
+    font-family: "BlenderProBook";
+    src: url("type/BlenderProBook.otf");
+}
+
+body {
+ margin-left: 3%; 
+ margin-right: 3%;
+ max-height: 2000px;
+ margin: 0 auto;
+}
+/*Flexbox*/
+.container {
+    
+   
+}
+/*header*/
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width:95%;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+.cursor {
+    cursor:context-menu;
+}
+.name {
+    text-decoration: none;
+}
+.end a {
+    text-decoration: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    padding-bottom: 15px;
+    transition: .3s ease;
+}
+a:visited {
+ color: black;
+}
+.end a:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 1);
+    padding-bottom: 5px;
+}
+.head h5 {
+    font-family: MaisonMonoReg;
+    flex-grow: ;
+}
+/*Side Nav*/
+.side {
+     margin-top: 7%;
+     margin-left: 2%;
+     width: 25%;
+     position:fixed;
+     max-width: 300px;
+}
+.side h6, p {
+    font-family: MaisonMonoReg;
+}
+
+.side p {
+    font-size: 12px;
+    margin-top: 12%;
+    line-height: 18px;
+}
+.side h5 {
+ font-family: "MaisonMonoReg";
+    color: black;
+}
+.link-1 {
+    text-decoration: none;
+    color:black;
+}
+.link-1:visited {
+    color: black;
+}
+.link-1 a {
+    color:black;
+}
+.link-1:hover {
+    color: #FF5335;
+}
+.links {
+    margin-top: 25%;
+    
+}
+/*Main*/
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    margin-top
+  
+}
+/*Project1 + General*/
+.project {
+    position: relative;
+    font-family: "MaisonMonoBold";
+    height: 450px;
+    width: 60%;
+    background-color: ;
+    background-image: ;
+    margin-top:5%;
+    margin-left:35%;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+    margin-bottom: 12%;
+    margin-top: 10%;
+    overflow: hidden;
+    z-index: 4;
+}
+.image img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  bottom: px;
+  transition: .5s .5s ease;
+}
+.image img:hover {
+    opacity: 0;
+    transition: .2s ease;
+}
+.text {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top:0;
+}
+.project a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.project:hover {
+    opacity: ;
+    transition: .2s ease;    
+}
+.project h3 {
+    font-family: "BlenderProBold";
+    text-align: center;
+    margin-top: 25%;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+.p1 {
+    border-bottom: 3px solid black;
+    padding: 2%;
+}
+.project h4 {
+    font-family: "BlenderProBook";
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+/*paulrand*/
+.image .paul {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  bottom: 73px;
+  transition: .5s .5s ease;
+}
+/*amnesty*/
+
+
+
+/*Pop-out Modal*/
+.pop {
+    position: fixed;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: 100000;
+    visibility: hidden;
+}
+
+.pop h1 {
+    font-family: "BlenderProBold";
+    color: white;
+    letter-spacing: .1em;
+    line-height: 1.1em;
+    width: 90%;
+    margin-left:3%;
+    margin-top:8%;
+    font-size: 42px;
+    width: 80%;
+    margin: 0 auto;
+}
+.poptitle {
+    margin-left: 3%;
+}
+.name {
+    text-decoration: none;
+}
+a:visited {
+ color: black;
+}
+.end a:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 1);
+    padding-bottom: 5px;
+}
+.poptitle h5 {
+    font-family: MaisonMonoReg;
+    color: white;
+    flex-grow: ;
+}
+/*footer*/
+footer {
+    background-color: white;
+    position: fixed;
+    height: 35px;
+    bottom: 0;
+    z-index: 10;
+    border-top: 1px solid #F2F2F2;
+    width: 100%; 
+    
+}
+.footer-links {
+  font-family: "MaisonMonoReg";
+  font-size: 10px;    
+  margin-top: 11px;
+  margin-right: 3%;
+  text-align: right;   
+}
+.foot-1 {
+    text-decoration:none;
+}
+.foot-1:hover {
+    color: #FF5335;
+}
+
+.foot-2 {
+    text-decoration:none;
+}
+.foot-2:hover {
+    color: #FF5335;
+}
+
+.foot-3 {
+    text-decoration:none;
+}
+.foot-3:hover {
+    color: #FF5335;
+}
+
+
+/*bokeh*/
+.bokehuno {
+ 
+    background-color: #405952;
+    height: 135px;
+    width: 135px;
+    border-radius: 70em;
+    overflow: ;
+    margin-top: 15%;
+    margin-left: 20%;
+    opacity: .8;
+   
+}
+.bokehdos {
+    display: block;
+    background-color: #9C9B7A;
+    height: 145px;
+    width: 145px;
+    border-radius: 90em;
+    margin-top: ; 
+    margin-left: 50%;
+    opacity: .7;
+   
+}
+.bokehtres {
+    background-color: #FFD393;
+    height: 130px;
+    width: 130px;
+    border-radius: 4em;
+    margin-top: -50%;
+    margin-bottom: 15%; 
+    margin-left: 60%;
+    opacity: .6;
+}
+.bokehquatro {
+    
+    background-color:#FF974F;
+    height: 125px;
+    width: 125px;
+    border-radius: 4em;
+    margin-top: -40%;
+    margin-left: ;
+    opacity: .8;
+}
+.bokehcinco {
+    background-color: #FAD46B;
+    height: 125px;
+    width: 125px;
+    border-radius: 4em;
+    margin-top: 30%;
+    margin-left: 15%;
+    opacity: .8;
+}
+.bokehsies {
+    background-color: #F54F29;
+    height: 115px;
+    width: 115px;
+    border-radius: 4em;
+    margin-top: -20%;
+    margin-left: 85%;
+    opacity: .7;
+}
+
+
+
+/*animation*/ 
+.name {
+    animation: name 3s infinite;  
+}
+.side {
+    animation: side 2s ease-in;
+}
+.head {
+    animation: head 1s ease-in;
+}
+.bokehuno {
+    animation: bokehuno 8s linear infinite;
+}
+.bokehdos {
+    animation: bokehdos 8s linear infinite;
+}
+.bokehtres{
+    animation: bokehtres 8s linear infinite;
+}
+.bokehquatro {
+    animation: bokehquatro 8s linear infinite;
+}
+.bokehcinco {
+    animation: bokehcinco 8s linear infinite;
+}
+.bokehsies {
+    animation: bokehsies 8s linear infinite;
+}
+
+/*keyframes*/
+@keyframes name {
+    0%  {}
+    20% {
+        color: #D25458;
+    }
+    40% {
+        color: #528297;
+    }
+    60% {
+        color: #7C785B;
+    }
+    80% {
+        color: #F2C777;
+    }
+    100% {
+        color: #EC8C65;
+    }
+}
+@keyframes side {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1;   
+    }
+}
+@keyframes head {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }   
+}
+/*Moving Dots*/
+@keyframes bokehuno {
+    0%   {}
+    25% {
+        transform: translate(-140px, 180px);
+    }
+    50% {
+        transform: translate(150px, -135px);
+    }
+    75% {
+        transform: translate(-145px, -120px);
+    }
+    100% {}
+} 
+@keyframes bokehdos {
+     0%   {}
+    25% {
+        transform: translate(75px, -90px);
+    }
+    50% {
+        transform: translate(-90px, 60px);
+    }
+    75% {
+        transform: translate(-85px, -60px);
+    }
+    100% {}
+} 
+@keyframes bokehtres {
+     0%   {}
+    25% {
+        transform: translate(155px, 60);
+    }
+    50% {
+        transform: translate(40px, 10px);
+    }
+    75% {
+        transform: translate(50px, 30px);
+    }
+    100% {}
+} 
+@keyframes bokehquatro {
+    0%   {}
+    25%  {
+        transform: translate(-65px, -60px);
+}
+    50%  {
+        transform: translate(-40px, -10px);
+    }
+    75%  {
+        transform: translate(65px, -50px);
+    }
+    100% {}
+}
+@keyframes bokehcinco {
+    0%   {}
+    25%  {
+        transform: translate(-65px, -60px);
+}
+    50%  {
+        transform: translate(-50px, -30px);
+    }
+    75%  {
+        transform: translate(85px, -50px);
+    }
+    100% {}
+}
+@keyframes bokehsies {
+    0%   {}
+    25%  {
+        transform: translate(-35px, 40px);
+}
+    50%  {
+        transform: translate(20px, -55px);
+    }
+    75%  {
+        transform: translate(35px, -60px);
+    }
+    100% {}
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: static;
+    }
+    .poptitle {
+        text-align: center;
+    }
+    .pop h1 {
+        font-size: 28px;
+        width: 95%;
+        line-height: 28px;
+       ;
+    }
+    .side {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .side h6 {
+        display: none;
+    }
+    .side p {
+        display: none;
+    }
+    .links {
+        display:;
+        text-align: center;
+        margin-top: 24px;
+    }
+    .main {
+     align-items: center;
+     
+    }
+    .project {
+      width: 100%;
+      height: 250px;
+      margin-left: 0;
+      
+    }
+    .project h3 {
+        margin-top: 5%;
+        font-size: 18px;      
+    }
+    .project h4 {
+        font-size: 14px;
+    }
+    .text {
+        margin-top: 20%;
+    }
+    
+    
+
+
+}
