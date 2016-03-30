@@ -44,6 +44,7 @@ body {
     border-bottom: 2px solid rgba(0, 0, 0, 0);
     padding-bottom: 15px;
     transition: .3s ease;
+    color: black;
 }
 a:visited {
  color: black;
@@ -251,6 +252,7 @@ footer {
 
 .foot-3 {
     text-decoration:none;
+    color:black;
 }
 .foot-3:hover {
     color: #FF5335;
