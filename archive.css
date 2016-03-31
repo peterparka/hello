@@ -34,7 +34,7 @@ a:visited {
  color: black;
 }
 .head h5 {
-    font-family: MaisonMonoReg;
+    font-family: "MaisonMonoReg";
     flex-grow: ;
 }
 .head a {
@@ -74,13 +74,13 @@ a:visited {
     background-color: #FF5335;
 }
 .descript h3 {
-    font-family: BlenderProBold;
+    font-family: "BlenderProBold";
     font-size: 21px;
     margin-left: 15%;
     
 }
 .descript p {
-    font-family: BlenderProBook;
+    font-family: "BlenderProBook";
     font-size: 12px;
     margin-right: 15%;
 }
