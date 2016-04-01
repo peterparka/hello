@@ -57,6 +57,10 @@ a:visited {
     font-family: MaisonMonoReg;
     flex-grow: ;
 }
+.high {
+    border-bottom: 4px solid #73f7dd;
+    padding-bottom: -5px;
+}
 /*Side Nav*/
 .side {
      margin-top: 7%;
@@ -237,6 +241,9 @@ footer {
   margin-top: 11px;
   margin-right: 3%;
   text-align: right;   
+}
+.footer-links a:visited {
+    color: black;
 }
 .foot-1 {
     text-decoration:none;
