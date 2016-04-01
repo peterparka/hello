@@ -162,6 +162,7 @@ footer {
 }
 .foot-1 {
     text-decoration:none;
+    color:black;
 }
 .foot-1:hover {
     color: #FF5335;
@@ -169,6 +170,7 @@ footer {
 
 .foot-2 {
     text-decoration:none;
+    color:black;
 }
 .foot-2:hover {
     color: #FF5335;
@@ -176,6 +178,7 @@ footer {
 
 .foot-3 {
     text-decoration:none;
+    color:black;
 }
 .foot-3:hover {
     color: #FF5335;
