@@ -29,6 +29,7 @@ body {
 }
 .end a {
     text-decoration: none;
+    color:black;
 }
 a:visited {
  color: black;
@@ -36,9 +37,11 @@ a:visited {
 .head h5 {
     font-family: "MaisonMonoReg";
     flex-grow: ;
+    color:black;
 }
 .head a {
     text-decoration: none;
+    color:black;
 }
 .blog a {
     text-decoration: none;
@@ -109,6 +112,7 @@ footer {
 }
 .foot-1 {
     text-decoration:none;
+    color:black;
 }
 .foot-1:hover {
     color: #FF5335;
@@ -116,6 +120,7 @@ footer {
 
 .foot-2 {
     text-decoration:none;
+    color:black;
 }
 .foot-2:hover {
     color: #FF5335;
