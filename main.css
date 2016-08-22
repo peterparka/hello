@@ -180,6 +180,20 @@ a:visited {
   transition: .5s .5s ease;
 }
 /*amnesty*/
+/*kodak*/
+.image .kodak {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+
+}
+/*facility*/
+.image .facility {
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+
+}
 /*jackie*/
 .jackie img {
     bottom: 70px
