@@ -180,6 +180,13 @@ a:visited {
   bottom: 73px;
   transition: .5s .5s ease;
 }
+/*adobe*/
+.image .adobe {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
 /*kodak*/
 .image .kodak {
     width: 65%;
