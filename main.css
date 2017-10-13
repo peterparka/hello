@@ -201,11 +201,15 @@ a:visited {
     width: 35%;
     display: block;
     margin: 0 auto;
-
 }
 /*jackie*/
 .jackie img {
     bottom: 70px
+}
+/*kodak animation site*/
+.image .dotdos {
+  height: 450px;
+
 }
  /*ebay*/
  .image .ebay {
