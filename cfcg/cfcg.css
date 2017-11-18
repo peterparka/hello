@@ -12,7 +12,7 @@
 }
 
 body {
- margin-left: 3%; 
+ margin-left: 3%;
  margin-right: 3%;
 
  max-height: 2000px;
@@ -58,13 +58,13 @@ a:visited {
  max-width: 1000px;
  margin: 0 auto;
  margin-bottom: 5%;
-    
+
 }
 .photo {
     width: 1000px;
     height: 550px;
     background-color: black;
-    
+
 }
 #owl-demo .item img{
     display: block;
@@ -83,10 +83,10 @@ a:visited {
 
 .item3 img {
     display: block;
-    width: 75%;
+    width: 60%;
     height: auto;
     margin: 0 auto;
-   
+
 }
 .item4 img {
     display: block;
@@ -122,12 +122,12 @@ a:visited {
     color: #FF5335;
 }
 .info {
-    width: 700px; 
+    width: 700px;
     text-align: ;
     margin-left: 4%;
-    
+
 }
-.info span {      
+.info span {
 }
 .info p {
     font-size: 10px;
@@ -153,14 +153,14 @@ footer {
     bottom: 0;
     z-index: 100;
     border-top: 1px solid #F2F2F2;
-    width: 100%;  
+    width: 100%;
 }
 .footer-links {
   font-family: "MaisonMonoReg";
-  font-size: 10px;    
+  font-size: 10px;
   margin-top: 11px;
   margin-right: 3%;
-  text-align: right;   
+  text-align: right;
 }
 .foot-1 {
     text-decoration:none;
@@ -209,7 +209,7 @@ footer {
         font-size: 90%;
         text-align: center;
         margin-top: 5%;
-        width: 100%;  
+        width: 100%;
     }
     .info p {
     font-size: 13px;
