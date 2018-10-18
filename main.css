@@ -560,7 +560,12 @@ footer {
         display: none;
     }
     .side p {
-        display: none;
+      font-size: 12px;
+      line-height: 18px;
+        /* display: none; */
+    }
+    .end {
+      display: none;
     }
     .links {
         display:;
@@ -577,6 +582,10 @@ footer {
       margin-left: 0;
 
     }
+    .project a {
+      display: none;
+    }
+
     .project h3 {
         margin-top: 5%;
         font-size: 18px;
